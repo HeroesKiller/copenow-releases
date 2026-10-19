@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "releases": [
+    {
+      "version": "1.1.0",
+      "title": "Docker setup and preview deployments",
+      "changes": [
+        "Run CopeNOW with Docker Compose, with personal settings and history preserved between updates.",
+        "Inspect component versions and commits in preview deployments, including deployed packages missing from the package catalog."
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "title": "Initial release",
+      "changes": [
+        "Monitor application health, builds and deployment changes across environments in one workspace."
+      ]
+    }
+  ]
+}
