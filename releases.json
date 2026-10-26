@@ -2,6 +2,14 @@
   "schemaVersion": 1,
   "releases": [
     {
+      "version": "1.1.1",
+      "title": "Brotli security update",
+      "changes": [
+        "Address the Brotli vulnerability CVE-2026-111497 with Node.js 24.22.1 in Docker and a minimum patched runtime for native startup.",
+        "Native users: update to Node.js 24.22.1 or newer in the 24.x line and restart CopeNOW. Docker users: rebuild with --pull and recreate the container.",
+      ]
+    },
+    {
       "version": "1.1.0",
       "title": "Docker setup and preview deployments",
       "changes": [
